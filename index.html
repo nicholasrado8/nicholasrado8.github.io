@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="DragoClean – Pulizie professionali per la tua casa e il tuo condominio. Vetri, balconi, scale, verande e molto altro." />
+	<title>DragoClean – Pulizie Professionali</title>
+
+	<link rel="icon" type="image/png" href="images/new-logo.png">
+
+	<!-- Google Fonts: Playfair Display (titoli) + DM Sans (testo) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+	<!-- ===================== HEADER / NAV ===================== -->
+	<header class="site-header" id="top">
+		<nav class="navbar" aria-label="Navigazione principale">
+			<a href="#top" class="logo" aria-label="DragoClean – torna all'inizio">
+				<!-- Sostituire con il logo reale -->
+				<span class="logo-icon"><img src="/logo new.png"></span>
+				<span class="logo-text">DragoClean di Dragan Savic</span>
+			</a>
+
+			<!-- Menu desktop -->
+			<ul class="nav-links" id="nav-links">
+				<li><a href="#servizi" class="nav-link">Servizi</a></li>
+				<li><a href="#perche-noi" class="nav-link">Perché noi</a></li>
+				<li><a href="#contatti" class="nav-link">Contatti</a></li>
+			</ul>
+
+			<!-- Hamburger button (visibile solo su mobile) -->
+			<button class="hamburger" id="hamburger" aria-label="Apri menu" aria-expanded="false"
+				aria-controls="nav-links">
+				<span class="hamburger-line"></span>
+				<span class="hamburger-line"></span>
+				<span class="hamburger-line"></span>
+			</button>
+		</nav>
+	</header>
+
+	<main>
+
+		<!-- ===================== HERO ===================== -->
+		<section class="hero" id="hero" aria-label="Sezione principale">
+			<!-- Immagine hero: pulizie professionali -->
+			<div class="hero-image-wrap">
+				<img src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					alt="Professionista che pulisce una finestra luminosa in un appartamento moderno" class="hero-img"
+					loading="eager" />
+				<div class="hero-overlay"></div>
+			</div>
+
+			<div class="hero-content container">
+				<!--span class="hero-badge reveal">Pulizie professionali dal 2005</span-->
+				<h1 class="hero-title reveal">
+					La tua casa<br />
+					<em>splende</em> con noi.
+				</h1>
+				<p class="hero-desc reveal">
+					DragoClean si prende cura degli spazi che ami: vetri, balconi, scale, verande e interni domestici.
+					Professionisti affidabili, risultati impeccabili.
+				</p>
+				<div class="hero-actions reveal">
+					<a href="#servizi" class="btn btn-outline">Scopri i servizi</a>
+				</div>
+			</div>
+
+			<!-- Freccia scroll -->
+			<a href="#servizi" class="hero-arrow" aria-label="Scorri verso i servizi">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+					stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+					<polyline points="6 9 12 15 18 9"></polyline>
+				</svg>
+			</a>
+		</section>
+
+		<!-- ===================== SERVIZI ===================== -->
+		<section class="section section-services" id="servizi" aria-labelledby="servizi-title">
+			<div class="container">
+				<div class="section-header reveal">
+					<span class="section-label">Cosa facciamo</span>
+					<h2 class="section-title" id="servizi-title">I nostri servizi</h2>
+					<p class="section-desc">
+						Dalla pulizia dei vetri alle scale condominiali, offriamo soluzioni su misura
+						per privati e condomini, con materiali professionali e personale formato.
+					</p>
+				</div>
+
+				<!-- Griglia servizi -->
+				<div class="services-grid">
+
+					<!-- Card 1 – Vetri -->
+					<article class="service-card reveal" aria-label="Servizio: Pulizia vetri">
+						<div class="service-img-wrap">
+							<img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&q=80"
+								alt="Pulizia professionale di vetri e finestre" loading="lazy" />
+						</div>
+						<div class="service-body">
+							<div class="service-icon" aria-hidden="true">🪟</div>
+							<h3 class="service-title">Pulizia vetri</h3>
+							<p class="service-desc">
+								Vetri interni ed esterni perfettamente trasparenti, senza aloni.
+								Utilizziamo attrezzatura professionale per ogni tipo di superficie.
+							</p>
+						</div>
+					</article>
+
+					<!-- Card 2 – Balconi -->
+					<article class="service-card reveal" aria-label="Servizio: Pulizia balconi">
+						<div class="service-img-wrap">
+							<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80"
+								alt="Balcone pulito con pavimento lavato e ringhiere lucide" loading="lazy" />
+						</div>
+						<div class="service-body">
+							<div class="service-icon" aria-hidden="true">🌿</div>
+							<h3 class="service-title">Pulizia balconi</h3>
+							<p class="service-desc">
+								Pavimenti, ringhiere e pareti esterne trattati con cura.
+								Rimozione di muschio, sporco e depositi atmosferici.
+							</p>
+						</div>
+					</article>
+
+					<!-- Card 3 – Scale -->
+					<article class="service-card reveal" aria-label="Servizio: Pulizia interni scale">
+						<div class="service-img-wrap">
+							<img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=600&q=80"
+								alt="Scale condominiali pulite e lucide" loading="lazy" />
+						</div>
+						<div class="service-body">
+							<div class="service-icon" aria-hidden="true">🏢</div>
+							<h3 class="service-title">Interni scale</h3>
+							<p class="service-desc">
+								Pulizia regolare o straordinaria degli spazi condominiali:
+								gradini, ringhiere, pianerottoli e androni.
+							</p>
+						</div>
+					</article>
+
+					<!-- Card 4 – Verande -->
+					<article class="service-card reveal" aria-label="Servizio: Pulizia verande">
+						<div class="service-img-wrap">
+							<img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&q=80"
+								alt="Veranda pulita con vetrate lucide e pavimento lavato" loading="lazy" />
+						</div>
+						<div class="service-body">
+							<div class="service-icon" aria-hidden="true">☀️</div>
+							<h3 class="service-title">Pulizia verande</h3>
+							<p class="service-desc">
+								Vetrate, strutture metalliche, pavimenti e arredi esterni:
+								la tua veranda torna a splendere come nuova.
+							</p>
+						</div>
+					</article>
+
+					<!-- Card 5 – Domestiche -->
+					<article class="service-card reveal" aria-label="Servizio: Pulizie domestiche">
+						<div class="service-img-wrap">
+							<img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80"
+								alt="Pulizia domestica professionale di un soggiorno moderno" loading="lazy" />
+						</div>
+						<div class="service-body">
+							<div class="service-icon" aria-hidden="true">🏠</div>
+							<h3 class="service-title">Pulizie domestiche</h3>
+							<p class="service-desc">
+								Pulizie ordinarie o a fondo della tua abitazione.
+								Personale fidato, discreto e assicurato.
+							</p>
+						</div>
+					</article>
+
+					<!-- Card 6 – Altri servizi -->
+					<article class="service-card service-card--accent reveal" aria-label="Servizio: Altri servizi">
+						<div class="service-body service-body--full">
+							<div class="service-icon" aria-hidden="true">➕</div>
+							<h3 class="service-title">Altri servizi</h3>
+							<p class="service-desc">
+								Sanificazioni, lavaggio tappeti, pulizia post-cantiere,
+								sgomberi e molto altro. Contattaci per un preventivo personalizzato.
+							</p>
+							<a href="#contatti" class="btn btn-primary" style="margin-top: 1.5rem;">Richiedi info</a>
+						</div>
+					</article>
+
+				</div><!-- /.services-grid -->
+			</div>
+		</section>
+
+		<!-- ===================== PERCHÉ NOI ===================== -->
+		<section class="section section-why" id="perche-noi" aria-labelledby="perche-noi-title">
+			<div class="container">
+				<div class="section-header reveal">
+					<span class="section-label">I nostri punti di forza</span>
+					<h2 class="section-title" id="perche-noi-title">Perché scegliere DragoClean?</h2>
+					<p class="section-desc">
+						Non siamo solo un servizio di pulizie: siamo partner affidabili che si prendono cura
+						del tuo spazio come se fosse il proprio.
+					</p>
+				</div>
+
+				<div class="why-grid">
+
+					<div class="why-card reveal">
+						<div class="why-number" aria-hidden="true">01</div>
+						<h3 class="why-title">Esperienza consolidata</h3>
+						<p class="why-desc">
+							Anni di esperienza nel settore. Abbiamo servito centinaia di famiglie
+							e condomini con professionalità e costanza.
+						</p>
+					</div>
+
+					<div class="why-card reveal">
+						<div class="why-number" aria-hidden="true">02</div>
+						<h3 class="why-title">Affidabilità totale</h3>
+						<p class="why-desc">
+							Rispettiamo gli appuntamenti, i tempi concordati e la tua privacy.
+							Il nostro personale è assicurato e selezionato con cura.
+						</p>
+					</div>
+
+					<div class="why-card reveal">
+						<div class="why-number" aria-hidden="true">03</div>
+						<h3 class="why-title">Cura dei dettagli</h3>
+						<p class="why-desc">
+							Non ci fermiamo all'apparenza: curiamo ogni angolo, ogni superficie,
+							ogni dettaglio, perché la pulizia vera si vede nei particolari.
+						</p>
+					</div>
+
+					<div class="why-card reveal">
+						<div class="why-number" aria-hidden="true">04</div>
+						<h3 class="why-title">Personale qualificato</h3>
+						<p class="why-desc">
+							Il nostro team è formato, aggiornato e dotato di attrezzature
+							professionali per garantire risultati eccellenti in sicurezza.
+						</p>
+					</div>
+
+				</div>
+
+				<!-- Immagine decorativa -->
+				<div class="why-image-row reveal">
+					<img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=1200&q=80"
+						alt="Team di professionisti DragoClean al lavoro in un ambiente pulito e luminoso" loading="lazy"
+						class="why-image" />
+				</div>
+
+			</div>
+		</section>
+
+		<!-- ===================== CHI SIAMO ===================== -->
+		<!--section class="section section-about" id="chi-siamo" aria-labelledby="chi-siamo-title">
+			<div class="container about-layout">
+
+				<div class="about-image-col reveal">
+					<img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
+						alt="Titolare di AziendaX che sorride in divisa professionale" loading="lazy"
+						class="about-image" />
+					<div class="about-badge" aria-hidden="true">
+						<strong class="about-badge-num">20+</strong>
+						<span class="about-badge-text">anni di<br />esperienza</span>
+					</div>
+				</div>
+
+				<div class="about-text-col">
+					<div class="section-header section-header--left reveal">
+						<span class="section-label">La nostra storia</span>
+						<h2 class="section-title" id="chi-siamo-title">Chi siamo</h2>
+					</div>
+
+					<p class="about-p reveal">
+						AziendaX nasce nel 2005 dalla passione di un gruppo di professionisti per
+						la pulizia e il benessere degli ambienti domestici. Partiti da una piccola
+						realtà locale, oggi serviamo centinaia di clienti soddisfatti in tutta la zona.
+					</p>
+
+					<p class="about-p reveal">
+						Crediamo che un ambiente pulito faccia stare meglio le persone. Per questo
+						trattiamo ogni incarico con la massima cura, usando prodotti di qualità e
+						tecniche professionali, nel rispetto dell'ambiente e delle persone.
+					</p>
+
+					<ul class="values-list reveal" aria-label="I nostri valori">
+						<li class="value-item">
+							<span class="value-dot" aria-hidden="true"></span>
+							<div>
+								<strong>Qualità garantita</strong>
+								<p>Ogni intervento viene verificato prima della chiusura del servizio.</p>
+							</div>
+						</li>
+						<li class="value-item">
+							<span class="value-dot" aria-hidden="true"></span>
+							<div>
+								<strong>Sostenibilità</strong>
+								<p>Prodotti eco-compatibili per proteggere la tua famiglia e il pianeta.</p>
+							</div>
+						</li>
+						<li class="value-item">
+							<span class="value-dot" aria-hidden="true"></span>
+							<div>
+								<strong>Trasparenza</strong>
+								<p>Prezzi chiari, senza sorprese. Preventivo gratuito e senza impegno.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</section-->
+
+		<!-- ===================== CONTATTI / CTA ===================== -->
+		<section class="section section-contact" id="contatti" aria-labelledby="contatti-title">
+			<div class="container">
+				<div class="section-header reveal">
+					<span class="section-label">Siamo qui per te</span>
+					<h2 class="section-title" id="contatti-title">Contattaci</h2>
+					<p class="section-desc">
+						Vuoi un preventivo gratuito? Hai una domanda? Scrivici o chiamaci:
+						rispondiamo sempre entro 24 ore.
+					</p>
+				</div>
+
+				<div class="contact-layout">
+
+					<!-- Info di contatto -->
+					
+
+						<a href="tel:+393881648245" class="contact-item" aria-label="Chiama DragoClean">
+							<div class="contact-icon" aria-hidden="true">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path
+										d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z">
+									</path>
+								</svg>
+							</div>
+							<div class="contact-text">
+								<span class="contact-label">Telefono</span>
+								<span class="contact-value">+39 388 164 8245</span>
+							</div>
+						</a>
+
+						<a href="mailto:dragocleants@gmail.com" class="contact-item" aria-label="Invia un'email ad AziendaX">
+							<div class="contact-icon" aria-hidden="true">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path
+										d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+									</path>
+									<polyline points="22,6 12,13 2,6"></polyline>
+								</svg>
+							</div>
+							<div class="contact-text">
+								<span class="contact-label">Email</span>
+								<span class="contact-value">dragocleants@gmail.com</span>
+							</div>
+						</a>
+
+						<div class="contact-item contact-item--static" aria-label="Orari di apertura">
+							<div class="contact-icon" aria-hidden="true">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<circle cx="12" cy="12" r="10"></circle>
+									<polyline points="12 6 12 12 16 14"></polyline>
+								</svg>
+							</div>
+							<div class="contact-text">
+								<span class="contact-label">Orari</span>
+								<span class="contact-value">Lun–Ven: 8:00–18:00</span>
+							</div>
+						</div>
+
+					
+
+					<!-- Form di contatto -->
+					<!--form class="contact-form reveal" id="contact-form" novalidate aria-label="Modulo di contatto">
+						<div class="form-group">
+							<label for="name" class="form-label">Nome e cognome <span
+									aria-hidden="true">*</span></label>
+							<input type="text" id="name" name="name" class="form-input" placeholder="Mario Rossi"
+								required autocomplete="name" />
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="form-label">Email <span aria-hidden="true">*</span></label>
+							<input type="email" id="email" name="email" class="form-input" placeholder="mario@email.it"
+								required autocomplete="email" />
+						</div>
+
+						<div class="form-group">
+							<label for="phone" class="form-label">Telefono</label>
+							<input type="tel" id="phone" name="phone" class="form-input" placeholder="+39 000 000 0000"
+								autocomplete="tel" />
+						</div>
+
+						<div class="form-group">
+							<label for="message" class="form-label">Messaggio <span aria-hidden="true">*</span></label>
+							<textarea id="message" name="message" class="form-input form-textarea" rows="4"
+								placeholder="Descrivi brevemente il servizio che cerchi..." required></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-primary btn-full">
+							Invia richiesta
+						</button>
+
+						<p class="form-feedback" id="form-feedback" aria-live="polite" role="status"></p>
+					</form-->
+
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- ===================== FOOTER ===================== -->
+	<footer class="site-footer" role="contentinfo">
+		<div class="container footer-layout">
+
+			<div class="footer-brand">
+				<a href="#top" class="logo logo--white" aria-label="DragoClean – torna all'inizio">
+					<span class="logo-icon"><img src="/logo new.png"></span>
+					<span class="logo-text">DragoClean di Dragan Savic</span>
+				</a>
+				<p class="footer-tagline">
+					Pulizie professionali per la tua casa<br />e il tuo condominio.
+				</p>
+			</div>
+
+			<div class="footer-col">
+				<h3 class="footer-heading">Servizi</h3>
+				<ul class="footer-links">
+					<li><a href="#servizi">Pulizia vetri</a></li>
+					<li><a href="#servizi">Pulizia balconi</a></li>
+					<li><a href="#servizi">Interni scale</a></li>
+					<li><a href="#servizi">Pulizia verande</a></li>
+					<li><a href="#servizi">Pulizie domestiche</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h3 class="footer-heading">Azienda</h3>
+				<ul class="footer-links">
+					<li><a href="#perche-noi">Perché noi</a></li>
+					<li><a href="#contatti">Contatti</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h3 class="footer-heading">Contatti</h3>
+				<address class="footer-address">
+					<p><a href="tel:+393881648245">+39 388 164 8245</a></p>
+					<p><a href="mailto:dragocleants@gmail.com">dragocleants@gmail.com</a></p>
+					<p>Via dei Piccardi 24, Trieste</p>
+					<p>P.IVA: 12345678901</p>
+				</address>
+			</div>
+
+		</div>
+
+		<div class="footer-bottom">
+			<p>&copy; <span id="year"></span> DragoClean di Dragan Savic – Tutti i diritti riservati.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
